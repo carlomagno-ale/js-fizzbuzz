@@ -8,3 +8,15 @@ In che ordine devo mettere le condizioni?
 Consigli del giorno:
     scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
     proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"*/
+
+
+// stampare numeri da 1 a 100
+for ( let i = 1; i <= 100; i++){
+    console.log(i);
+}
+
+// identificare multipli di 3
+
+// identificare multipli di 5
+
+// stampare fizz, buzz e fizzbuzz usando le variabili identificate
