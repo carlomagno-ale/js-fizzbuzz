@@ -11,24 +11,27 @@ Consigli del giorno:
 
 
 // stampare numeri da 1 a 100
+
+// identificare multipli di 3
+
+// identificare multipli di 5
+
+// stampare fizz, buzz e fizzbuzz usando le variabili identificate
+
+
 for (let i = 1; i <= 100; i++) {
 
     const multiple_3 = i % 3;
     const multiple_5 = i % 5;
 
-    if (multiple_3 === 0) {
+    if (multiple_3 === 0 && multiple_5 === 0) {
+        console.log(`${i} FizzBuzz`);
+    } else if (multiple_3 === 0) {
         console.log(`${i} Fizz`);
     } else if (multiple_5 === 0) {
         console.log(`${i} Buzz`);
-    } /*else if (multiple_3 === 0 && multiple_5 === 0) {
-        console.log(`${i} FizzBuzz`);
-    }*/ else {
+    } else {
         console.log(i);
     }
-};
+}
 
-// identificare multipli di 3 
-
-// identificare multipli di 5
-
-// stampare fizz, buzz e fizzbuzz usando le variabili identificate
