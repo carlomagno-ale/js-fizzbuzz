@@ -22,7 +22,7 @@ for (let i = 1; i <= 100; i++) {
     }
 }
 
-// identificare multipli di 3
+// identificare multipli di 3 
 
 // identificare multipli di 5
 
